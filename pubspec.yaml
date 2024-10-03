@@ -1,0 +1,36 @@
+name: aspen_travel_app
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"  # Updated to match stable Flutter versions
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Hiatus
+      fonts:
+        - asset: assets/fonts/Hiatus.ttf
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/ProductSans-Bold.ttf
+        - asset: assets/fonts/ProductSans-Regular.ttf
+        - asset: assets/fonts/ProductSans-Light.ttf
+        - asset: assets/fonts/ProductSans-Thin.ttf
